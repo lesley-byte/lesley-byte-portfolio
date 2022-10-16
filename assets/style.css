@@ -93,7 +93,10 @@ main li a {
   min-width: 250px;
 }
 #item1 {
-    min-width:350px;
+    display: block;
+    min-width:300px;
+    min-height:300px;
+    
 
 }
 section {
@@ -128,7 +131,7 @@ footer a {
   text-decoration: none;
 }   
 /* Media Queries */
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
   main {
     flex-direction: column;
   }
@@ -138,7 +141,7 @@ footer a {
   main li {
     width: 100%;
   }
-  main li:first-child {
+  #item1 {
     width: 100%;
   }
 }   
@@ -149,5 +152,5 @@ footer a {
   header nav {
     margin-top: 1rem;
   }
-}    */
+}   
 /* End of Media Queries */
