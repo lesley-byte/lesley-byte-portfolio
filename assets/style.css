@@ -1,0 +1,65 @@
+/*create a light blue background*/
+body {
+    background-color: #d0e4fe;
+}
+/*create a dark blue background for the header*/
+header {
+    background-color: #1c4587;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    border: black 1px solid;
+}
+/*create a dark blue background for the navigation bar*/
+nav {
+    line-height: 30px;
+    background-color: #eeeeee;
+    height: 300px;
+    width: 100px;
+    float: left;
+    padding: 5px;      
+}
+
+/*create a dark blue background for the section*/
+section {
+    width: 350px;
+    float: left;
+    padding: 10px;   
+}
+/*create a dark blue background for the footer*/
+footer {
+    background-color: #1c4587;
+    color: #ffffff;
+    clear: both;
+    text-align: center;
+    padding: 10px; 
+}
+
+/* ul has flexbox properties */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}   
+/* li has flexbox properties */
+li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* a has flexbox properties and is a box with a border */
+a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}   
