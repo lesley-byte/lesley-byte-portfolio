@@ -2,7 +2,7 @@
 
 ## Description
 
- I'm excited to showcase my skills, learn more and to consolodate my best work. This portfolio consolodates relevant work that may interest potential employers and showcases good examples of my work so that the viewer has a reasonable starting place with which to determine my fit for their organization. It was a good excuse to practice css skills.
+ I'm excited to showcase my skills, learn more and to consolodate my best work. This portfolio contains relevant work that may interest potential employers and showcases examples of my work so that the viewer has a reasonable starting place with which to determine my fit for their organization. It was a good excuse to practice css skills and have fun with GitHub.
 
 ## Table of Contents (Optional)
 
