@@ -4,10 +4,10 @@
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+- What was your motivation? I'm excited to showcase my skills and learn more.
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.") To show off what I can do.
+- What problem does it solve? Without a portfolio everything is in different places and the viewer can't tell what is a good example of my work and what is just play.
+- What did you learn? I worked on my flexbox skills.
 
 ## Table of Contents (Optional)
 
