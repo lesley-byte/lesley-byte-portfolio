@@ -54,6 +54,16 @@ header nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
 }
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-image: url(../images/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 section {
     display: flex;
     background-color: var(--h2-background-color);
