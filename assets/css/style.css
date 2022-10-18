@@ -107,6 +107,7 @@ section p {
     border: 5px solid var(--h2-color);
     border-radius: 5px;
     justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url(../images/placeholder.svg);
 }
 .card:hover {
     background-color: var(--h2-color);
