@@ -12,6 +12,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
+
 }
 
 header {
@@ -19,6 +20,7 @@ header {
   background-color: var(--background-color);
   color: var(--header-color);
   justify-content: space-between;
+
 }
 
 header h1 {
@@ -125,23 +127,28 @@ section p {
     background-image: linear-gradient(rgba(149, 206, 216.3), rgba(0,0,0,0.6)), url(../images/placeholder.svg);
 }
 .card:hover {
-    background-color: var(--h2-color);
+    background-color: white;
     color: var(--h2-background-color);
-    transition-duration: 0.5s;
-    box-shadow: inset 0px 0px 0 18px var(--header-color);
+    transition-duration: 0.2s;
+    box-shadow:  10px 10px 30px #4e6470, 5px 5px 10px 1px rgba(149, 206, 216.3) inset;
+}
+.card:active {
+    background-color: var(--h2-color);
+    color: var(--h2-color);
+    transition-duration: 0.2s;
+    border : 6px solid var(--h2-color);
+    box-shadow:5px 5px 10px 1px black inset;
 }
 .card a {
     color: var(--h2-color);
     text-decoration: none;
     font-weight: bold;
-    background-color: var(--header-color);
     text-align: left;
  
 }
+
 section nav ul {
     display:flex;
-    
-
 }
 section nav ul li {
     list-style: none;
@@ -162,9 +169,9 @@ section ul li a:hover {
     box-shadow: inset 0px -30px 0 0px var(--h2-color);
 }
 
-h2 {
+/* h2 {
     width: 400px;
-}
+} */
 
 /* need media query for 1706px */
 /* fixes itself at 758px */
@@ -176,7 +183,6 @@ h2 {
     
 }
 .card-holder p {
-    background-color: var(--header-color);
     width: min-content;
     margin:0;
 }
@@ -192,4 +198,193 @@ h4 span {
 
 footer {
     text-align: center;
+}
+/* Media queries to make fonts smaller for smaller screens */
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 1.2rem;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    section h2 {
+        font-size: 1.5rem;
+    }
+    .card-holder p {
+        font-size: 1.2rem;
+    }
+    .card-holder h4 {
+        font-size: 1.2rem;
+    }
+    .card-holder a {
+        font-size: 1.2rem;
+    }
+    .card-holder span {
+        font-size: .4rem;
+    }
+    .card-holder {
+        font-size: 1.2rem;
+    }
+    .card {
+        font-size: 1.2rem;
+    }
+    .card a {
+        font-size: 1.2rem;
+    }
+    .card h4 {
+        font-size: 1.2rem;
+    }
+    .card p {
+        font-size: 1.2rem;
+    }
+    .card span {
+        font-size: .4rem;
+    }
+    .card-holder p {
+        font-size: 1.2rem;
+    }
+    .card-holder h4 {
+        font-size: 1.2rem;
+    }
+    .card-holder a {
+        font-size: 1.2rem;
+    }
+    .card-holder span {
+        font-size: .4rem;
+    }
+    .card-holder {
+        font-size: 1.2rem;
+    }
+    .card {
+        font-size: 1.2rem;
+    }
+    .card a {
+        font-size: 1.2rem;
+    }
+    .card h4 {
+        font-size: 1.2rem;
+    }
+    .card p {
+        font-size: 1.2rem;
+    }
+    .card span {
+        font-size: .4rem;
+    }
+    .card-holder p {
+        font-size: 1.2rem;
+    }
+    .card-holder h4 {
+        font-size: 1.2rem;
+    }
+    .card-holder a {
+        font-size: 1.2rem;
+    }
+    .card-holder span {
+        font-size: .4rem;
+    }
+    .card-holder {
+        font-size: 1.2rem;
+    }
+    .card {
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 1rem;
+    }
+    header h1 {
+        font-size: 1.2rem;
+    }
+    section h2 {
+        font-size: 1.2rem;
+    }
+    .card-holder p {
+        font-size: 1rem;
+    }
+    .card-holder h4 {
+        font-size: 1rem;
+    }
+    .card-holder a {
+        font-size: 1rem;
+    }
+    .card-holder span {
+        font-size: .3rem;
+    }
+    .card-holder {
+        font-size: 1rem;
+    }
+    .card {
+        font-size: 1rem;
+    }
+    .card a {
+        font-size: 1rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+    }
+    .card p {
+        font-size: 1rem;
+    }
+    .card span {
+        font-size: .3rem;
+    }
+    .card-holder p {
+        font-size: 1rem;
+    }
+    .card-holder h4 {
+        font-size: 1rem;
+    }
+    .card-holder a {
+        font-size: 1rem;
+    }
+    .card-holder span {
+        font-size: .3rem;
+    }
+    .card-holder {
+        font-size: 1rem;
+    }
+    .card {
+        font-size: 1rem;
+    }
+    .card a {
+        font-size: 1rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+    }
+    .card p {
+        font-size: 1rem;
+    }
+    .card span {
+        font-size: .3rem;
+    }
+    .card-holder p {
+        font-size: 1rem;
+    }
+    .card-holder h4 {
+        font-size: 1rem;
+    }
+    .card-holder a {
+        font-size: 1rem;
+    }
+    .card-holder span {
+        font-size: .3rem;
+    }
+    .card-holder {
+        font-size: 1rem;
+    }
+    .card {
+        font-size: 1rem;
+    }
+    .card a {
+        font-size: 1rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+    }
+    
 }
