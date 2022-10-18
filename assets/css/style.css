@@ -69,6 +69,7 @@ section {
     background-color: var(--h2-background-color);
     color: var(--header-color);
     padding: 1rem;
+    width: 100%;
 }
 section h2 {
     color: var(--h2-color);
@@ -77,7 +78,11 @@ section h2 {
     font-size: 2rem;
     border-right: 5px solid var(--h2-color);
     /* not sure what the width should be right now */
-    width: 150px;
+    width: 10%;
+    text-align: right;
+}
+.main {
+    width: 90%;
 }
 section p {
     padding: 1rem;
@@ -141,4 +146,15 @@ section ul li a:hover {
     transition-duration: 0.5s;
     text-decoration: none;
     font-weight: bold;
+}
+
+h2 {
+    width: 400px;
+}
+
+/* need media query for 1706px */
+/* fixes itself at 758px */
+.main .card h4 {
+    background-color: aquamarine;
+    margin:0;
 }
