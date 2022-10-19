@@ -396,7 +396,7 @@ div#item1 {
     
 }#item1 {
     width: 70vw;
-    height: 50vh;
+    height: 70vh;
 }
 
 @media screen and (max-width: 900px) {
