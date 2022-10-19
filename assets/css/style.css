@@ -151,6 +151,8 @@ section p {
 
 section nav ul {
     display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 section nav ul li {
     list-style: none;
@@ -291,6 +293,9 @@ footer {
     .card {
         font-size: 1.2rem;
     }
+
+div#item1 {
+}
     
 }
 
@@ -392,4 +397,11 @@ footer {
 }#item1 {
     width: 70vw;
     height: 50vh;
+}
+
+@media screen and (max-width: 900px) {
+    #item1 {
+        width: 50vw;
+        height: 50vh;
+    }
 }
