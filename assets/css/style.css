@@ -1,11 +1,11 @@
-/* My portfolio website. Background color is dark grey header text color is light blue. h2 has grey text and white background. */
+/* My portfolio website. 👋 Background color is dark grey header text color is light blue. h2 has grey text and white background. */
 :root {
   --header-color: #95ced8;
   --background-color: #333333;
   --h2-background-color: #FFFFFF;
   --h2-color: #4e6470;
 }
-
+/* 🏡element selector sets the background color, font color, font size, and font family for the body */
 body {
   background-color: var(--background-color);
   color: var(--header-color);
@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
 
 }
-
+/* element selector sets the background color, font color, font size, and font family for the header*/
 header {
   display: flex;
   background-color: var(--background-color);
@@ -24,7 +24,7 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
+/* element selector sets the background color, font color, font size, and font family for the h1 */
 header h1 {
   font-size: 2rem;
   margin: 2px;
@@ -33,24 +33,24 @@ header h1 {
   max-height: 70px;
   padding-left: 11vw;
 }
-
+/* element selector sets the background color, font color, font size, and font family for the nav ul at the top */
 header nav ul {
     display:flex;
 
 }
-
+/* element selector sets the background color, font color, font size, and font family for the nav ul li */
 header nav ul li {
     list-style: none;
     padding: 0 1rem;
     
 }
-
+/* element selector sets the background color, font color, font size, and font family for the nav ul li a */
 header nav ul li a {
     color: var(--header-color);
     text-decoration: underline;
     font-weight: bold;
 }
-
+/* ✨element selector sets the background color, font color, font size, and font family for the nav ul li a when the mouse hovers over the nav bar links ✨  */
 header nav ul li a:hover {
     color: var(--background-color);
     /* background-color: var(--header-color);   */
@@ -59,6 +59,7 @@ header nav ul li a:hover {
     transition-duration: .6s;
     box-shadow: inset 0px -30px 0 0px var(--header-color);
 }
+/* class selector sets up dimensions of hero image an link to the image*/
 .hero-img {
     display: flex;
     justify-content: center;
@@ -69,6 +70,7 @@ header nav ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
+/* element selector that sets the background color, font color, display type, and text-decoration for the section */
 section {
     display: flex;
     background-color: var(--h2-background-color);
@@ -77,6 +79,7 @@ section {
     width: 97.4%;
     text-decoration: none;
 }
+/* element selector that sets the background color, font color, display type, and text-decoration for the section h2 */
 section h2 {
     color: var(--h2-color);
     padding: 1rem;
@@ -94,6 +97,7 @@ section h2 {
     text-decoration: none;
     
 }
+/* element selector that sets the background color, font color, display type, and text-decoration for the section p */
 section p {
     padding: 1rem;
     color: var(--h2-color);
@@ -103,6 +107,7 @@ section p {
     align-items: center;
     text-decoration: none;
 }
+/*💡this part is all about the cards that are links to projects.  These cards frustrated me and I will have to update this more later. */
 .card-holder {
     display: flex;
     flex-wrap: wrap;
@@ -126,14 +131,17 @@ section p {
     border: 6px solid var(--header-color);
     border-radius: 5px;
     justify-content: center;
+    /* 💡will need more images and to figure out how to fit them into different cards */
     background-image: linear-gradient(rgba(149, 206, 216.3), rgba(0,0,0,0.6)), url(../images/hero-img.jpg);
 }
+/* 💎✨class selector for the magic when you hover over the cards✨ */
 .card:hover {
     background-color: white;
     color: var(--h2-background-color);
     transition-duration: 0.2s;
     box-shadow:  10px 10px 30px #4e6470, 5px 5px 10px 1px rgba(149, 206, 216.3) inset;
 }
+/* ✨sort of accidentally magic when you click on the cards✨ */
 .card:active {
     background-color: var(--h2-color);
     color: var(--h2-color);
@@ -148,23 +156,27 @@ section p {
     text-align: left;
  
 }
-
+/* element selector that sets the display,flex-wrap, and justify-content for the section nav ul */
 section nav ul {
     display:flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+/* element selector that sets the list-style and padding for the section nav ul li */
 section nav ul li {
     list-style: none;
     padding: 0 1rem;
     
 }
+/* element selector that sets the color, text-decoration, and font-weight for the section nav ul li a */
 section nav ul li a {
     color: var(--h2-color);
     text-decoration: underline;
     font-weight: bold;
     
 }
+/* 💎✨element selector that sets the color, text-decoration, and font-weight as well as shadow and transition for the section nav ul li a when the mouse hovers over links 
+this is how the  links look so good✨*/
 section ul li a:hover {
     color: var(--h2-background-color);
     text-decoration: none;
@@ -172,25 +184,23 @@ section ul li a:hover {
     transition-duration: .6s;
     box-shadow: inset 0px -30px 0 0px var(--h2-color);
 }
-
+/* sort of still fooling around here*/
 /* h2 {
     width: 400px;
 } */
-
-/* need media query for 1706px */
-/* fixes itself at 758px */
+/* 😠this section of the css is all about trying to get the cards to look good */
 .main .card h4 {
     background-color: var(--header-color);
     width: min-content;
     margin:0;
     
-    
 }
+/* class selector that i was using to try to keep the cards in their places */
 .card-holder p {
     width: min-content;
     margin:0;
 }
-
+/* element selector that sets up the text below the main text in the cards */
 h4 span {
     font-size: .5rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -204,6 +214,7 @@ footer {
     text-align: center;
 }
 /* Media queries to make fonts smaller for smaller screens */
+/*  I got a bit frustrated 😠 and threw the kitchen sink at the media queries 🤯 may need to clean this up a bit.  Sorry about that.☣️ */
 
 @media screen and (max-width: 900px) {
     body {
@@ -296,6 +307,8 @@ footer {
 
     
 }
+
+/* again apologies....eeek😨...sorry about this ☣️ */
 
 @media screen and (max-width: 600px) {
     body {
@@ -392,6 +405,8 @@ footer {
         font-size: 1rem;
     }
     
+
+    /* 🤯id selector for the super large card at the beginning of the projects sectionl.  I struggled with this one */
 }#item1 {
     width: 70vw;
     height: 70vh;
