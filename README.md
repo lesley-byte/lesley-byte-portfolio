@@ -10,6 +10,9 @@ I'm excited to showcase my skills, learn more and to consolodate my best work. T
 - [Screenshot](#screenshot)
 - [Credits](#credits)
 - [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Tests](#tests)
 
 ## Usage
 
@@ -22,9 +25,10 @@ Visit it at:
 
 ## Credits
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+- I would like to thank my tutor [Jacob Nordan](https://github.com/jnordan132) who tutored me through this and my fantastic instructors at the Rutgers Full Stack Coding Bootcamp. 
+- I would like to thank the [HTML Living Standard](https://html.spec.whatwg.org/multipage/).
+- I would like to thank the Google speed test website checker [Google Speed Test Website Checker](https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect).
+- I would like to thank the [Nu Html Checker](https://validator.w3.org/nu/).
 
 ## License
 
