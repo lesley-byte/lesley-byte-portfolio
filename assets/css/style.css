@@ -1,6 +1,6 @@
 /* My portfolio website. Background color is dark grey header text color is light blue. h2 has grey text and white background. */
 :root {
-  --header-color: rgb(149, 206, 216);
+  --header-color: #95ced8;
   --background-color: #333333;
   --h2-background-color: #FFFFFF;
   --h2-color: #4e6470;
@@ -64,7 +64,7 @@ header nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 40vh;
-    background-image: url(../images/hero-img.jpg);
+    background-image: url(../images/hero-img2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
