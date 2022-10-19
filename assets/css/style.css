@@ -20,7 +20,9 @@ header {
   background-color: var(--background-color);
   color: var(--header-color);
   justify-content: space-between;
-
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 header h1 {
@@ -29,7 +31,7 @@ header h1 {
   background-color: var(--header-color);
   color: var(--background-color);
   max-height: 70px;
-  
+  padding-left: 11vw;
 }
 
 header nav ul {
@@ -115,8 +117,8 @@ section p {
     flex-wrap: wrap;
     background-color: var(--header-color);
     color: var(--h2-color);
-    width: 300px;
-    height: 300px;
+    width: 28vw;
+    height: 28vh;
     margin: 1rem;
     align-content: flex-start;
     align-items: flex-start;
