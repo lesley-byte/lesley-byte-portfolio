@@ -126,7 +126,7 @@ section p {
     border: 6px solid var(--header-color);
     border-radius: 5px;
     justify-content: center;
-    background-image: linear-gradient(rgba(149, 206, 216.3), rgba(0,0,0,0.6)), url(../images/placeholder.svg);
+    background-image: linear-gradient(rgba(149, 206, 216.3), rgba(0,0,0,0.6)), url(../images/hero-img.jpg);
 }
 .card:hover {
     background-color: white;
