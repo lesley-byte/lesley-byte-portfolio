@@ -62,13 +62,22 @@ header nav ul li a:hover {
 /* class selector sets up dimensions of hero image an link to the image*/
 .hero-img {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     height: 40vh;
     background-image: url(../images/hero-img2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    align-content: space-between;
+}
+/* class selector sets up dimensions of image. image is 10vw wide and 10vw high. with a 1vw border. it is on the left side of the page above the hero image*/
+.profile-img {
+    width: 15vw;
+    height: 15vw;
+    border: 1vw solid var(--header-color);
+    border-radius: 50%;
+    margin: 1vw;
 }
 /* element selector that sets the background color, font color, display type, and text-decoration for the section */
 section {
