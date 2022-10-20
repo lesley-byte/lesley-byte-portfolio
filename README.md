@@ -16,7 +16,7 @@ I'm excited to showcase my skills, learn more and to consolodate my best work. T
 
 ## Usage
 
-Visit it at: 
+Visit it at:
 [Link to page](https://lesley-byte.github.io/lesley-byte-portfolio/)
 
 ## Screenshot
@@ -25,7 +25,7 @@ Visit it at:
 
 ## Credits
 
-- I would like to thank my tutor [Jacob Nordan](https://github.com/jnordan132) who tutored me through this and my fantastic instructors at the Rutgers Full Stack Coding Bootcamp. 
+- I would like to thank my tutor [Jacob Nordan](https://github.com/jnordan132) who tutored me through this and my fantastic instructors at the Rutgers Full Stack Coding Bootcamp.
 - I would like to thank the [HTML Living Standard](https://html.spec.whatwg.org/multipage/).
 - I would like to thank the Google speed test website checker [Google Speed Test Website Checker](https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect).
 - I would like to thank the [Nu Html Checker](https://validator.w3.org/nu/).
@@ -43,7 +43,7 @@ MIT License. See LICENSE file for the details.
 - html
 - css
 - Flexbox
-- effort 
+- effort
 
 ## Tests
 

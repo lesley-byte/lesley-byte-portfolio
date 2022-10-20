@@ -2,17 +2,16 @@
 :root {
   --header-color: #95ced8;
   --background-color: #333333;
-  --h2-background-color: #FFFFFF;
+  --h2-background-color: #ffffff;
   --h2-color: #4e6470;
 }
 /* 🏡element selector sets the background color, font color, font size, and font family for the body */
 body {
   background-color: var(--background-color);
   color: var(--header-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
-
 }
 /* element selector sets the background color, font color, font size, and font family for the header*/
 header {
@@ -33,169 +32,168 @@ header h1 {
   max-height: 70px;
   padding-left: 11vw;
 }
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* element selector sets the background color, font color, font size, and font family for the nav ul at the top */
 header nav ul {
-    display:flex;
-
+  display: flex;
 }
 /* element selector sets the background color, font color, font size, and font family for the nav ul li */
 header nav ul li {
-    list-style: none;
-    padding: 0 1rem;
-    
+  list-style: none;
+  padding: 0 1rem;
 }
 /* element selector sets the background color, font color, font size, and font family for the nav ul li a */
 header nav ul li a {
-    color: var(--header-color);
-    text-decoration: underline;
-    font-weight: bold;
+  color: var(--header-color);
+  text-decoration: underline;
+  font-weight: bold;
 }
 /* ✨element selector sets the background color, font color, font size, and font family for the nav ul li a when the mouse hovers over the nav bar links ✨  */
 header nav ul li a:hover {
-    color: var(--background-color);
-    /* background-color: var(--header-color);   */
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: .6s;
-    box-shadow: inset 0px -30px 0 0px var(--header-color);
+  color: var(--background-color);
+  /* background-color: var(--header-color);   */
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.6s;
+  box-shadow: inset 0px -30px 0 0px var(--header-color);
 }
 /* class selector sets up dimensions of hero image an link to the image*/
 .hero-img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 40vh;
-    background-image: url(../images/hero-img2.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-content: space-between;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 40vh;
+  background-image: url(../images/hero-img2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-content: space-between;
 }
 /* class selector sets up dimensions of image. image is 10vw wide and 10vw high. with a 1vw border. it is on the left side of the page above the hero image*/
 .profile-img {
-    width: 15vw;
-    height: 15vw;
-    border: 1vw solid var(--header-color);
-    border-radius: 50%;
-    margin: 1vw;
+  width: 15vw;
+  height: 15vw;
+  border: 1vw solid var(--header-color);
+  border-radius: 50%;
+  margin: 1vw;
 }
 /* element selector that sets the background color, font color, display type, and text-decoration for the section */
 section {
-    display: flex;
-    background-color: var(--h2-background-color);
-    color: var(--header-color);
-    padding: 1rem;
-    width: 97.4%;
-    text-decoration: none;
+  display: flex;
+  background-color: var(--h2-background-color);
+  color: var(--header-color);
+  padding: 1rem;
+  width: 97.4%;
+  text-decoration: none;
 }
 /* element selector that sets the background color, font color, display type, and text-decoration for the section h2 */
 section h2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 
-    color: var(--h2-color);
-    padding: 1rem;
-    margin: 0;
-    font-size: 2rem;
-    border-right: 5px solid var(--h2-color);
-    /* not sure what the width should be right now */
-    width: 15%;
-    text-align: right;
-    text-decoration: none;
+  color: var(--h2-color);
+  padding: 1rem;
+  margin: 0;
+  font-size: 2rem;
+  border-right: 5px solid var(--h2-color);
+  /* not sure what the width should be right now */
+  width: 15%;
+  text-align: right;
+  text-decoration: none;
 }
 /* I have changed the width from 100% to 85% to make the section h2 text fit better. */
 .main {
-    width: 85%;
-    text-decoration: none;
-    
+  width: 85%;
+  text-decoration: none;
 }
 /* element selector that sets the background color, font color, display type, and text-decoration for the section p */
 section p {
-    padding: 1rem;
-    color: var(--h2-color);
-    margin: 0;
-    display: flex;
-    flex-wrap:wrap;
-    align-items: center;
-    text-decoration: none;
+  padding: 1rem;
+  color: var(--h2-color);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
 }
 /*💡this part is all about the cards that are links to projects.  These cards frustrated me and I will have to update this more later. */
 .card-holder {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .card {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: var(--header-color);
-    color: var(--h2-color);
-    width: 28vw;
-    height: 28vh;
-    margin: 1rem;
-    align-content: flex-start;
-    align-items: flex-start;
-    padding: 1rem 1rem 1rem 0;
-    border: 6px solid var(--header-color);
-    border-radius: 5px;
-    justify-content: center;
-    /* 💡will need more images and to figure out how to fit them into different cards */
-    background-image: linear-gradient(rgba(149, 206, 216.3), rgba(0,0,0,0.6)), url(../images/hero-img.jpg);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: var(--header-color);
+  color: var(--h2-color);
+  width: 28vw;
+  height: 28vh;
+  margin: 1rem;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem 1rem 1rem 0;
+  border: 6px solid var(--header-color);
+  border-radius: 5px;
+  justify-content: center;
+  /* 💡will need more images and to figure out how to fit them into different cards */
+  background-image: linear-gradient(rgba(149, 206, 216.3), rgba(0, 0, 0, 0.6)),
+    url(../images/hero-img.jpg);
 }
 /* 💎✨class selector for the magic when you hover over the cards✨ */
 .card:hover {
-    background-color: white;
-    color: var(--h2-background-color);
-    transition-duration: 0.2s;
-    box-shadow:  10px 10px 30px #4e6470, 5px 5px 10px 1px rgba(149, 206, 216.3) inset;
+  background-color: white;
+  color: var(--h2-background-color);
+  transition-duration: 0.2s;
+  box-shadow: 10px 10px 30px #4e6470,
+    5px 5px 10px 1px rgba(149, 206, 216.3) inset;
 }
 /* ✨sort of accidentally magic when you click on the cards✨ */
 .card:active {
-    background-color: var(--h2-color);
-    color: var(--h2-color);
-    transition-duration: 0.2s;
-    border : 6px solid var(--h2-color);
-    box-shadow:5px 5px 10px 1px black inset;
+  background-color: var(--h2-color);
+  color: var(--h2-color);
+  transition-duration: 0.2s;
+  border: 6px solid var(--h2-color);
+  box-shadow: 5px 5px 10px 1px black inset;
 }
 .card a {
-    color: var(--h2-color);
-    text-decoration: none;
-    font-weight: bold;
-    text-align: left;
- 
+  color: var(--h2-color);
+  text-decoration: none;
+  font-weight: bold;
+  text-align: left;
 }
 /* element selector that sets the display,flex-wrap, and justify-content for the section nav ul */
 section nav ul {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 /* element selector that sets the list-style and padding for the section nav ul li */
 section nav ul li {
-    list-style: none;
-    padding: 0 1rem;
-    
+  list-style: none;
+  padding: 0 1rem;
 }
 /* element selector that sets the color, text-decoration, and font-weight for the section nav ul li a */
 section nav ul li a {
-    color: var(--h2-color);
-    text-decoration: underline;
-    font-weight: bold;
-    
+  color: var(--h2-color);
+  text-decoration: underline;
+  font-weight: bold;
 }
 /* 💎✨element selector that sets the color, text-decoration, and font-weight as well as shadow and transition for the section nav ul li a when the mouse hovers over links 
 this is how the  links look so good✨*/
 section ul li a:hover {
-    color: var(--h2-background-color);
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: .6s;
-    box-shadow: inset 0px -30px 0 0px var(--h2-color);
+  color: var(--h2-background-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 0.6s;
+  box-shadow: inset 0px -30px 0 0px var(--h2-color);
 }
 /* sort of still fooling around here*/
 /* h2 {
@@ -203,231 +201,227 @@ section ul li a:hover {
 } */
 /* 😠this section of the css is all about trying to get the cards to look good */
 .main .card h4 {
-    background-color: var(--header-color);
-    width: min-content;
-    margin:0;
-    
+  background-color: var(--header-color);
+  width: min-content;
+  margin: 0;
 }
 /* class selector that i was using to try to keep the cards in their places */
 .card-holder p {
-    width: min-content;
-    margin:0;
+  width: min-content;
+  margin: 0;
 }
 /* element selector that sets up the text below the main text in the cards */
 h4 span {
-    font-size: .5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .card-holder a {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 /* Media queries to make fonts smaller for smaller screens */
 /*  I got a bit frustrated 😠 and threw the kitchen sink at the media queries 🤯 may need to clean this up a bit.  Sorry about that.☣️ */
 
 @media screen and (max-width: 900px) {
-    body {
-        font-size: 1.2rem;
-    }
-    header h1 {
-        font-size: 2.5rem;
-    }
-    section h2 {
-        font-size: 1.5rem;
-    }
-    .card-holder p {
-        font-size: 1.2rem;
-    }
-    .card-holder h4 {
-        font-size: 1.2rem;
-    }
-    .card-holder a {
-        font-size: 1.2rem;
-    }
-    .card-holder span {
-        font-size: .4rem;
-    }
-    .card-holder {
-        font-size: 1.2rem;
-    }
-    .card {
-        font-size: 1.2rem;
-    }
-    .card a {
-        font-size: 1.2rem;
-    }
-    .card h4 {
-        font-size: 1.2rem;
-    }
-    .card p {
-        font-size: 1.2rem;
-    }
-    .card span {
-        font-size: .4rem;
-    }
-    .card-holder p {
-        font-size: 1.2rem;
-    }
-    .card-holder h4 {
-        font-size: 1.2rem;
-    }
-    .card-holder a {
-        font-size: 1.2rem;
-    }
-    .card-holder span {
-        font-size: .4rem;
-    }
-    .card-holder {
-        font-size: 1.2rem;
-    }
-    .card {
-        font-size: 1.2rem;
-    }
-    .card a {
-        font-size: 1.2rem;
-    }
-    .card h4 {
-        font-size: 1.2rem;
-    }
-    .card p {
-        font-size: 1.2rem;
-    }
-    .card span {
-        font-size: .4rem;
-    }
-    .card-holder p {
-        font-size: 1.2rem;
-    }
-    .card-holder h4 {
-        font-size: 1.2rem;
-    }
-    .card-holder a {
-        font-size: 1.2rem;
-    }
-    .card-holder span {
-        font-size: .4rem;
-    }
-    .card-holder {
-        font-size: 1.2rem;
-    }
-    .card {
-        font-size: 1.2rem;
-    }
-
-    
+  body {
+    font-size: 1.2rem;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  section h2 {
+    font-size: 1.5rem;
+  }
+  .card-holder p {
+    font-size: 1.2rem;
+  }
+  .card-holder h4 {
+    font-size: 1.2rem;
+  }
+  .card-holder a {
+    font-size: 1.2rem;
+  }
+  .card-holder span {
+    font-size: 0.4rem;
+  }
+  .card-holder {
+    font-size: 1.2rem;
+  }
+  .card {
+    font-size: 1.2rem;
+  }
+  .card a {
+    font-size: 1.2rem;
+  }
+  .card h4 {
+    font-size: 1.2rem;
+  }
+  .card p {
+    font-size: 1.2rem;
+  }
+  .card span {
+    font-size: 0.4rem;
+  }
+  .card-holder p {
+    font-size: 1.2rem;
+  }
+  .card-holder h4 {
+    font-size: 1.2rem;
+  }
+  .card-holder a {
+    font-size: 1.2rem;
+  }
+  .card-holder span {
+    font-size: 0.4rem;
+  }
+  .card-holder {
+    font-size: 1.2rem;
+  }
+  .card {
+    font-size: 1.2rem;
+  }
+  .card a {
+    font-size: 1.2rem;
+  }
+  .card h4 {
+    font-size: 1.2rem;
+  }
+  .card p {
+    font-size: 1.2rem;
+  }
+  .card span {
+    font-size: 0.4rem;
+  }
+  .card-holder p {
+    font-size: 1.2rem;
+  }
+  .card-holder h4 {
+    font-size: 1.2rem;
+  }
+  .card-holder a {
+    font-size: 1.2rem;
+  }
+  .card-holder span {
+    font-size: 0.4rem;
+  }
+  .card-holder {
+    font-size: 1.2rem;
+  }
+  .card {
+    font-size: 1.2rem;
+  }
 }
 
 /* again apologies....eeek😨...sorry about this ☣️ */
 
 @media screen and (max-width: 600px) {
-    body {
-        font-size: 1rem;
-    }
-    header h1 {
-        font-size: 2.2rem;
-    }
-    section h2 {
-        font-size: 1.2rem;
-    }
-    .card-holder p {
-        font-size: 1rem;
-    }
-    .card-holder h4 {
-        font-size: 1rem;
-    }
-    .card-holder a {
-        font-size: 1rem;
-    }
-    .card-holder span {
-        font-size: .3rem;
-    }
-    .card-holder {
-        font-size: 1rem;
-    }
-    .card {
-        font-size: 1rem;
-    }
-    .card a {
-        font-size: 1rem;
-    }
-    .card h4 {
-        font-size: 1rem;
-    }
-    .card p {
-        font-size: 1rem;
-    }
-    .card span {
-        font-size: .3rem;
-    }
-    .card-holder p {
-        font-size: 1rem;
-    }
-    .card-holder h4 {
-        font-size: 1rem;
-    }
-    .card-holder a {
-        font-size: 1rem;
-    }
-    .card-holder span {
-        font-size: .3rem;
-    }
-    .card-holder {
-        font-size: 1rem;
-    }
-    .card {
-        font-size: 1rem;
-    }
-    .card a {
-        font-size: 1rem;
-    }
-    .card h4 {
-        font-size: 1rem;
-    }
-    .card p {
-        font-size: 1rem;
-    }
-    .card span {
-        font-size: .3rem;
-    }
-    .card-holder p {
-        font-size: 1rem;
-    }
-    .card-holder h4 {
-        font-size: 1rem;
-    }
-    .card-holder a {
-        font-size: 1rem;
-    }
-    .card-holder span {
-        font-size: .3rem;
-    }
-    .card-holder {
-        font-size: 1rem;
-    }
-    .card {
-        font-size: 1rem;
-    }
-    .card a {
-        font-size: 1rem;
-    }
-    .card h4 {
-        font-size: 1rem;
-    }
-    
+  body {
+    font-size: 1rem;
+  }
+  header h1 {
+    font-size: 2.2rem;
+  }
+  section h2 {
+    font-size: 1.2rem;
+  }
+  .card-holder p {
+    font-size: 1rem;
+  }
+  .card-holder h4 {
+    font-size: 1rem;
+  }
+  .card-holder a {
+    font-size: 1rem;
+  }
+  .card-holder span {
+    font-size: 0.3rem;
+  }
+  .card-holder {
+    font-size: 1rem;
+  }
+  .card {
+    font-size: 1rem;
+  }
+  .card a {
+    font-size: 1rem;
+  }
+  .card h4 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 1rem;
+  }
+  .card span {
+    font-size: 0.3rem;
+  }
+  .card-holder p {
+    font-size: 1rem;
+  }
+  .card-holder h4 {
+    font-size: 1rem;
+  }
+  .card-holder a {
+    font-size: 1rem;
+  }
+  .card-holder span {
+    font-size: 0.3rem;
+  }
+  .card-holder {
+    font-size: 1rem;
+  }
+  .card {
+    font-size: 1rem;
+  }
+  .card a {
+    font-size: 1rem;
+  }
+  .card h4 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 1rem;
+  }
+  .card span {
+    font-size: 0.3rem;
+  }
+  .card-holder p {
+    font-size: 1rem;
+  }
+  .card-holder h4 {
+    font-size: 1rem;
+  }
+  .card-holder a {
+    font-size: 1rem;
+  }
+  .card-holder span {
+    font-size: 0.3rem;
+  }
+  .card-holder {
+    font-size: 1rem;
+  }
+  .card {
+    font-size: 1rem;
+  }
+  .card a {
+    font-size: 1rem;
+  }
+  .card h4 {
+    font-size: 1rem;
+  }
 
-    /* 🤯id selector for the super large card at the beginning of the projects sectionl.  I struggled with this one */
-}#item1 {
-    width: 70vw;
-    height: 70vh;
+  /* 🤯id selector for the super large card at the beginning of the projects sectionl.  I struggled with this one */
+}
+#item1 {
+  width: 70vw;
+  height: 70vh;
 }
 
 @media screen and (max-width: 900px) {
-    #item1 {
-        width: 50vw;
-        height: 50vh;
-    }
+  #item1 {
+    width: 50vw;
+    height: 50vh;
+  }
 }
