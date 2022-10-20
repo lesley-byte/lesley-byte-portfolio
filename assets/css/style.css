@@ -39,6 +39,7 @@ header nav {
 /* element selector sets the background color, font color, font size, and font family for the nav ul at the top */
 header nav ul {
   display: flex;
+  flex-wrap: wrap;
 }
 /* element selector sets the background color, font color, font size, and font family for the nav ul li */
 header nav ul li {
@@ -66,6 +67,7 @@ header nav ul li a:hover {
   justify-content: flex-start;
   align-items: flex-start;
   height: 40vh;
+  width: webkit-fill-available;
   background-image: url(../images/hero-img2.png);
   background-size: cover;
   background-position: center;
@@ -86,7 +88,7 @@ section {
   background-color: var(--h2-background-color);
   color: var(--header-color);
   padding: 1rem;
-  width: 97.4%;
+  width: webkit-fill-available;
   text-decoration: none;
 }
 /* element selector that sets the background color, font color, display type, and text-decoration for the section h2 */
