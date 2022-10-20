@@ -43,6 +43,8 @@ header nav ul {
 }
 /* element selector sets the background color, font color, font size, and font family for the nav ul li */
 header nav ul li {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0 1rem;
 }
