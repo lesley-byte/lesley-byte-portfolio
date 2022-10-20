@@ -229,7 +229,7 @@ footer {
 /* Media queries to make fonts smaller for smaller screens */
 /*  I got a bit frustrated 😠 and threw the kitchen sink at the media queries 🤯 may need to clean this up a bit.  Sorry about that.☣️ */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   body {
     font-size: 1.2rem;
   }
@@ -347,8 +347,8 @@ footer {
     align-items: center;
   }
   .profile-img {
-    width: 35vw;
-    height: 35vw;
+    width: 45vw;
+    height: 45vw;
     border: 1vw solid var(--header-color);
     border-radius: 50%;
     margin: 1vw;
