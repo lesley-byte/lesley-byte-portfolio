@@ -244,8 +244,8 @@ footer {
     align-items: center;
   }
   .profile-img {
-    width: 30vw;
-    height: 30vw;
+    height: 100%;
+    width: unset;
     border: 1vw solid var(--header-color);
     border-radius: 50%;
     margin: 1vw;
@@ -342,17 +342,7 @@ footer {
   section h2 {
     font-size: 1.2rem;
   }
-  .hero-img {
-    justify-content: space-around;
-    align-items: center;
-  }
-  .profile-img {
-    width: 45vw;
-    height: 45vw;
-    border: 1vw solid var(--header-color);
-    border-radius: 50%;
-    margin: 1vw;
-  }
+
   .card-holder p {
     font-size: 1rem;
   }
