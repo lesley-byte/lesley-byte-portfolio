@@ -31,6 +31,7 @@ header h1 {
   color: var(--background-color);
   max-height: 70px;
   padding-left: 11vw;
+  padding-right: 1vw;
 }
 header nav {
   display: flex;
