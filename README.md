@@ -17,7 +17,7 @@ I'm excited to showcase my skills, learn more and to consolodate my best work. T
 ## Usage
 
 Visit it at:
-[Link to page](https://lesley-byte.github.io/lesley-byte-portfolio/)
+[Link to page](https://www.lesleyvaden.dev)
 
 ## Screenshot
 
