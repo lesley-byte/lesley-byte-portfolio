@@ -146,7 +146,7 @@ section p {
   padding: 1rem 1rem 1rem 0;
   border: 6px solid var(--header-color);
   border-radius: 5px;
-  justify-content: center;
+  justify-content: flex-end;
   /* 💡will need more images and to figure out how to fit them into different cards */
   background-image: linear-gradient(rgba(149, 206, 216.3), rgba(0, 0, 0, 0.6)),
     url(../images/hero-img.jpg);
@@ -173,6 +173,20 @@ section p {
   font-weight: bold;
   text-align: left;
 }
+
+.custom-h4 {
+  border-radius: 0px 5px 5px 0px;
+  opacity: 0.8;
+  padding: 0.5rem;
+  box-shadow: 3px 3px 7px 0px black;
+}
+
+.custom-h4:hover {
+  transition-duration: 0.2s;
+  box-shadow: 10px 10px 30px #4e6470,
+    5px 5px 10px 1px rgba(149, 206, 216.3) inset;
+}
+
 /* element selector that sets the display,flex-wrap, and justify-content for the section nav ul */
 section nav ul {
   display: flex;
