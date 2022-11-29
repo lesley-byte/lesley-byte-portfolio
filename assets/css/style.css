@@ -460,3 +460,14 @@ footer {
     height: 50vh;
   }
 }
+ 
+/* use image called "wordSearch.png" as background image for the image1 id */
+#item1 {
+  background-image: url("./assets/images/wordSearch.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  border-radius: 1vw;
+  border: 1vw solid var(--header-color);
+}
