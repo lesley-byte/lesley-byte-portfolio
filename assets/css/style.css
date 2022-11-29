@@ -450,8 +450,7 @@ footer {
   /* 🤯id selector for the super large card at the beginning of the projects sectionl.  I struggled with this one */
 }
 #item1 {
-  width: 70vw;
-  height: 70vh;
+
 }
 
 @media screen and (max-width: 900px) {
@@ -463,11 +462,10 @@ footer {
  
 /* use image called "wordSearch.png" as background image for the image1 id */
 #item1 {
-  background-image: url("./assets/images/wordSearch.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  border-radius: 1vw;
-  border: 1vw solid var(--header-color);
+  width: 70vw;
+  height: 70vh;
+  background-image: 
+  linear-gradient(rgba(149, 206, 216.3), rgba(0, 0, 0, 0.6)),
+    url(../images/wordSearch2.png); 
+  
 }
